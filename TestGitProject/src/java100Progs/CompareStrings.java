@@ -8,18 +8,18 @@ public class CompareStrings {
 
 	public static void main(String[] args) {
 
-		String s1, s2;
+		String str1, str2;
 
 		Scanner in = new Scanner(System.in);
 
 		System.out.println("Enter the first string");
-		s1 = in.next();
+		str1 = in.next();
 		System.out.println("Enter the second string");
-		s2 = in.next();
+		str2 = in.next();
 
-		if (s1.compareTo(s2) > 0)
+		if (str1.compareTo(str2) > 0)
 			System.out.println("First string is greater than second.");
-		else if (s1.compareTo(s2) < 0)
+		else if (str1.compareTo(str2) < 0)
 			System.out.println("First string is smaller than second.");
 		else
 			System.out.println("Both strings are equal.");
