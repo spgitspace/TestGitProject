@@ -8,17 +8,17 @@ public class Add2Numbers {
 
 	public static void main(String[] args) {
 
-		int i, j;
+		int sum1, sum2;
 
 		Scanner in = new Scanner(System.in);
 
-		System.out.println("Enter the value of i : ");
-		i = in.nextInt();
+		System.out.println("Enter the value of sum1 : ");
+		sum1 = in.nextInt();
 		
-		System.out.println("Enter the value of j : ");
-		j = in.nextInt();
+		System.out.println("Enter the value of sum2 : ");
+		sum2 = in.nextInt();
 		
-		System.out.println("Addition of i & j : " + (i + j));
+		System.out.println("Addition of sum1 & sum2 : " + (sum1 + sum2));
 
 		in.close();
 	}
