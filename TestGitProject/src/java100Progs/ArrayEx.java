@@ -6,17 +6,17 @@ public class ArrayEx {
 
 	public static void main(String[] args) {
 
-		int a[] = new int[5];// declaration and instantiation
+		int array[] = new int[5];// declaration and instantiation
 		
-		a[0] = 10;// initialization
-		a[1] = 20;
-		a[2] = 70;
-		a[3] = 40;
-		a[4] = 50;
+		array[0] = 10;// initialization
+		array[1] = 20;
+		array[2] = 70;
+		array[3] = 40;
+		array[4] = 50;
 		
 		// printing array
-		for (int i = 0; i < a.length; i++)// length is the property of array
-			System.out.println(a[i]);
+		for (int i = 0; i < array.length; i++)// length is the property of array
+			System.out.println(array[i]);
 
 	}
 
